@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@mui/x-date-pickers": "^8.5.0",
+    "@react-pdf/renderer": "^4.3.0",
+    "date-fns": "^4.1.0",
+    "mysql2": "^3.14.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

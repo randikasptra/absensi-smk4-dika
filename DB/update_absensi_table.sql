@@ -1,0 +1,2 @@
+ALTER TABLE absensi
+ADD COLUMN minggu INT DEFAULT 1 AFTER tanggal;
